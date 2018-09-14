@@ -1,1 +1,8 @@
- {"plugins": ["hints"]}
+ {
+    "plugins": ["theme-api", "hints"],
+    "pluginsConfig": {
+        "theme-api": {
+            "theme": "dark"
+        }
+    }
+}
