@@ -1,5 +1,5 @@
  {
-    "plugins": ["theme-api", "hints", "exercises"],
+    "plugins": ["theme-api", "hints", "exercises", "quiz"],
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark"
