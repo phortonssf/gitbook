@@ -21,28 +21,23 @@ echo 'You got to trust me on this, I saved the world'
 
 
 
----
-
+{% exercise %}
 Define a variable `x` equal to 10.
 
-```js
+{% initial %}
 var x =
-```
 
-```js
+{% solution %}
 var x = 10;
-```
 
-```js
+{% validation %}
 assert(x == 10);
-```
 
-```js
-// This is context code available everywhere
-// The user will be able to call magicFunc in his code
-function magicFunc() {
+{% context %}
+
+var exposedVar = 3;
+function exposedFunction () {
     return 3;
 }
-```
 
----
+{% endexercise %}
