@@ -33,5 +33,11 @@ var x = 10;
 {% validation %}
 assert(x == 10);
 
+{% context %}
+
+var exposedVar = 3;
+function exposedFunction {
+    return 3;
+}
 
 {% endexercise %}
